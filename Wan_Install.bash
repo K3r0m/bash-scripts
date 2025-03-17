@@ -7,7 +7,7 @@ mkdir -p SwarmUI/Models/vae
 mkdir -p SwarmUI/Models/clip_vision
 
 # Dateien nacheinander herunterladen
-curl -L -o SwarmUI/Models/diffusion_models/wan2.1_i2v_720p_14B_fp8_scaled.safetensors https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/diffusion_models/wan2.1_i2v_720p_14B_fp8.safetensors
+curl -L -o SwarmUI/Models/diffusion_models/wan2.1_i2v_720p_14B_fp8_scaled.safetensors https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/diffusion_models/wan2.1_i2v_720p_14B_fp8_scaled.safetensors
 
 curl -L -o SwarmUI/Models/clip/umt5_xxl_fp8_e4m3fn_scaled.safetensors "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors"
 
